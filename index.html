@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <title>Book Inventory</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="add__book">Book Details</h1>
+    <form id="book-form">
+      <div>
+        <label for="title" class="bookInput">Title</label>
+        <input type="text" id="title" class="u-full-width" placeholder="Enter Book Title">
+      </div>
+      <div>
+        <label for="author" class="bookInput">Author</label>
+        <input type="text" id="author" class="u-full-width" placeholder="Enter Author">
+      </div>
+      <div>
+        <label for="isbn" class="bookInput">ISBN#</label>
+        <input type="text" id="isbn" class="u-full-width" placeholder="ISBN number e.g. 123-4-56789-000-1">
+      </div>
+      <div>
+        <input type="submit" value="Submit" class="u-full-width submit">
+      </div>
+    </form>
+    <table class="u-full-width">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>ISBN</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="book-list"></tbody>
+    </table>
+  </div>
+  <footer class="footer"></footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body {
+    background: url("/Book-Inventory/assets/imgs/library2.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(211, 211, 211, 0.555);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.add__book {
+    color: #fff !important;
+}
+
+.bookInput {
+    color: #fff;
+}
+
+.submit {
+    background-color: green !important;
+    color: white !important;
+}
+
+.submit:hover {
+    background-color: rgb(10, 190, 10);
+}
+
+.success, .error {
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+  }
+
+  .success {
+    background: green;
+  }
+
+  .error {
+    background: red;
+  }
+
+  .delete {
+      color: red;
+  }
